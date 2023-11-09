@@ -356,7 +356,7 @@ section .button button:hover{
 /*  Testimonials CSS */
 #testimonials{
   background: #F0F8FF;
-  padding-bottom:30px;
+  padding-bottom:60px;
 }
 .slider {
   display: flex;
