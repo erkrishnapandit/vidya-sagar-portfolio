@@ -397,6 +397,7 @@ section .button button:hover{
 .testimonial {
     text-align: center;
     padding: 20px;
+    cursor:grab;
 }
 
 .testimonial img {
