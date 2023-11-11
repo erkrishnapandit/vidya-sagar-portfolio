@@ -43,3 +43,24 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+
+// testimonials
+// script.js
+// document.addEventListener("DOMContentLoaded", function() {
+//   $('.slider').slick({
+//       dots: true, // Add navigation dots
+//       autoplay: true, // Autoplay the slider
+//       autoplaySpeed: 5000, // Set autoplay speed in milliseconds
+//   });
+// });
+
+document.addEventListener("DOMContentLoaded", function() {
+  var mySwiper = new Swiper('.swiper-container', {
+      loop: true, // Enable infinite loop
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+      },
+  });
+});
