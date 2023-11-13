@@ -375,8 +375,8 @@ section .button button:hover{
 #slider-container .btn {
 	position: absolute;
 	top: calc(50% - 15px);
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 30px;
 	border-left: 8px solid #c4c0c0;
 	border-top: 8px solid #c4c0c0;
 	cursor: pointer;
