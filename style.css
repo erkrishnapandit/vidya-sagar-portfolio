@@ -595,6 +595,7 @@ footer .text span a:hover{
 }
 
 @media (max-width: 1100px) {
+
   nav .navbar{
      width: 90%;
    }
@@ -686,14 +687,40 @@ footer .text span a:hover{
 }
 
 @media (max-width: 500px){
+  nav .navbar .logo a{
+    font-size: 25px;
+  }
+  .home .text{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .home .text-one{
+    font-size: 20px;
+  }
   .home .text-two{
-    font-size: 55px;
+    font-size: 35px;
   }
   .home .text-three{
-    font-size: 33px;
+    font-size: 23px;
+  }
+  .home .text-four{
+    font-size: 20px;
+  }
+  .home .button button{
+    font-size: 19px;
   }
   .skills-details .boxes .per{
     font-size: 50px;
     color: #4070f4;
+  }
+  section .title span {
+    font-size: 24px;
+  }
+  section .button button {
+    font-size: 18px;
+  }
+  footer .text span {
+    font-size: 10px;
   }
 }
